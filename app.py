@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 # Load the trained model and define class names
-model = load_model('potato_model.keras')
+model = load_model('models/potato_model.keras')
 class_names = ['Potato Early Blight', 'Potato Late Blight', 'Potato Healthy']
 img_size = 180
 
